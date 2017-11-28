@@ -32,8 +32,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_toEndOf="@+id/itemtitle_image"
-                android:paddingStart="15dp"
+                android:lineSpacingExtra="8sp"
                 android:paddingEnd="5dp"
+                android:paddingHorizontal="15dp"
+                android:paddingStart="30dp"
+                android:textAlignment="textStart"
                 android:textSize="27sp"
                 android:textStyle="bold" />
         </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>

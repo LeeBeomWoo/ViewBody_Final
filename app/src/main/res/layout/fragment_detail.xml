@@ -38,8 +38,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_toEndOf="@+id/itemtitle_image"
-                android:paddingStart="15dp"
                 android:paddingEnd="5dp"
+                android:paddingHorizontal="15dp"
+                android:paddingStart="15dp"
+                android:textAlignment="textStart"
                 android:textSize="28sp"
                 android:textStyle="bold" />
         </cn.gavinliu.android.lib.scale.ScaleRelativeLayout>
